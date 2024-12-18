@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Dires-Melkie.github.io/Netflex-Clone/static/css/main.b1ca8237.css",
+    "main.js": "/Dires-Melkie.github.io/Netflex-Clone/static/js/main.2eefbc15.js",
+    "static/media/Netflexlogo.png": "/Dires-Melkie.github.io/Netflex-Clone/static/media/Netflexlogo.e9630982ba9fcc90d8b9.png",
+    "index.html": "/Dires-Melkie.github.io/Netflex-Clone/index.html",
+    "main.b1ca8237.css.map": "/Dires-Melkie.github.io/Netflex-Clone/static/css/main.b1ca8237.css.map",
+    "main.2eefbc15.js.map": "/Dires-Melkie.github.io/Netflex-Clone/static/js/main.2eefbc15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1ca8237.css",
+    "static/js/main.2eefbc15.js"
+  ]
+}
