@@ -15,7 +15,7 @@ const Row = ({title, fetchUrl, isLargeRow}) => {
         (async() => {
             try{
                 console.log(fetchUrl)
-                const request = await axios.get(`http://localhost:4000/api/${fetchUrl}`);
+                const request = await axios.get(fetchUrl);
                 console.log(request)
                 setMovie(request.data.results);
             } catch (error){
@@ -60,7 +60,7 @@ const Row = ({title, fetchUrl, isLargeRow}) => {
         </div>
         <div style={{ padding: '40px'}}>
             {trailerUrl && <YouTube videoId={trailerUrl}  opts={opts} />}
-        </div>    
+        </div> 
     </div>
   )
 }
